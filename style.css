@@ -1,0 +1,18 @@
+body{
+margin:0;font-family:Georgia,serif;background:#fff;color:#333;
+}
+nav{display:flex;justify-content:space-between;padding:25px 10%;position:absolute;width:80%;}
+nav a{color:#666;text-decoration:none;margin-left:20px}
+.hero{
+height:100vh;
+background:linear-gradient(rgba(255,255,255,.7),rgba(255,255,255,.95)), url('https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=1600&auto=format&fit=crop') center/cover;
+display:flex;align-items:center;justify-content:center;text-align:center;
+}
+.hero-content h1{font-size:4rem;font-weight:300}
+.section{padding:80px 10%;text-align:center}
+.gallery{display:flex;gap:20px;justify-content:center}
+.placeholder{width:250px;height:250px;background:#f7f7f7;border:1px solid #eee;display:flex;align-items:center;justify-content:center}
+form{max-width:500px;margin:auto;display:flex;flex-direction:column;gap:15px}
+input,select,textarea,button{padding:14px;border:1px solid #ddd;border-radius:10px}
+button{background:#fff;border:1px solid #bbb;cursor:pointer}
+footer{text-align:center;padding:30px;color:#888}
